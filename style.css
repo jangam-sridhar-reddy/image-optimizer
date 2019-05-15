@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+.container{
+    width:1170px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:  0 15px;
+}
+form{
+    width:60%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius:4px;  
+    margin:80px auto;
+    padding: 20px;  
+}
+
+
+.image_file_font_text_bg{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.image_file_input_outter_bg{
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+
+}
+
+.image_file_font_bg > i{
+    font-size:40px;
+}
+.image_file_text_bg{
+    text-transform: capitalize;
+    padding-top:10px;
+}
+/*new*/
+.add_image_container{
+    display:flex;
+}
+.image_file_outter_bg{
+    position: relative;
+}
+.image_file_bg{
+    border: 2px dashed #dddfe2;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 100px;
+    margin-right: 5px;
+    min-width: 100px;
+    position: relative;
+    width: auto;
+}
+.image_file_label_bg{
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.image_file_input_type_file_bg{
+    bottom: 0;
+    cursor: pointer;
+    font-size: 1000px !important;
+    height: 300px;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+}
+.new_image_upload{
+    width: 100px;
+    height:100px;
+    object-fit: cover;
+    object-position: center;
+   
+}
+#preview{
+    display: flex;
+    flex-direction: row;
+}
+.image_url_outter{
+    position: relative;
+    margin-right: 15px;
+}
+.new_image_remove_button_bg{
+    position: absolute;
+    top: -11px;
+    right: -11px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    background: #e3095a;
+    cursor: pointer;
+}
+.new_image_cover_pic{
+    position: absolute;
+    bottom:10px;
+    color:#fff;
+    padding: 5px 10px 5px 20px;
+    background: rgba(37, 36, 66, 0.8);
+    width:100%;
+    text-transform: uppercase;
+    left:0;
+}
+/*new*/
